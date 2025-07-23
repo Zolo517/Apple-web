@@ -17,7 +17,7 @@
   align-items: center;
 }
 .neg-2 {
-  background-image: url("ipad.jpg");
+  background-image: url("images/ipad.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,16 +44,16 @@
 }
 
 .gurav-2 {
-  background-image: url("apple-watch.jpg");
+  background-image: url("images/apple-watch.jpg");
 }
 .tav {
-  background-image: url("trade-in.jpg");
+  background-image: url("images/trade-in.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .hoyr-2 {
-  background-image: url("airpods-pro.jpg");
+  background-image: url("images/airpods-pro.jpg");
 
   display: flex;
   flex-direction: column;
@@ -61,12 +61,12 @@
   padding: 58px;
 }
 .duruv {
-  background-image: url("macbook-air.jpg");
+  background-image: url("images/macbook-air.jpg");
 
   padding: 48px;
 }
 .zurgaa {
-  background-image: url("card.jpg");
+  background-image: url("images/card.jpg");
 }
 .applewatch {
   display: flex;

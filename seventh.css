@@ -1,5 +1,5 @@
 .fitness1 {
-  background-image: url("fitness.jpg");
+  background-image: url("images/fitness.jpg");
 }
 .footer {
   background-position: center;
@@ -26,10 +26,10 @@
   margin-bottom: 3px;
 }
 .fitness2 {
-  background-image: url("plus.jpg");
+  background-image: url("images/plus.jpg");
 }
 .basketball {
-  background-image: url("nba.jpg");
+  background-image: url("images/nba.jpg");
 }
 .music1 {
   background-color: #1b2632;

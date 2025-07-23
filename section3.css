@@ -15,19 +15,19 @@
   gap: 10px;
 }
 .iphone16-pro {
-  background-image: url("8cee8a34ee4ba9b658ae0be05611d11ea5d55e1b.jpg");
+  background-image: url("images/8cee8a34ee4ba9b658ae0be05611d11ea5d55e1b.jpg");
   padding: 30px;
 }
 .series-10 {
-  background-image: url("c919767811d17384ffff099320c9c7133d51ca53.jpg");
+  background-image: url("images/c919767811d17384ffff099320c9c7133d51ca53.jpg");
   padding: 45px 0px 0px 30px;
 }
 .ipad-mini {
-  background-image: url("ipad-mini.jpg");
+  background-image: url("images/ipad-mini.jpg");
   padding: 30px;
 }
 .macbookpro {
-  background-image: url("8943d8c585c4f4bb4720641745b1cce65bdd8f0e.jpg");
+  background-image: url("images/8943d8c585c4f4bb4720641745b1cce65bdd8f0e.jpg");
   padding: 30px;
 }
 .latest > div {

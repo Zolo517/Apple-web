@@ -6,7 +6,7 @@
   flex-direction: column;
 }
 .get {
-  background-image: url("93f151ac653907f22599b9fbc9ab8bcfb347d691.jpg");
+  background-image: url("images/93f151ac653907f22599b9fbc9ab8bcfb347d691.jpg");
   width: 480px;
   height: 500px;
 }
@@ -39,5 +39,5 @@
   line-height: 28px;
 }
 .specialist {
-  background-image: url("7be9e8c4cd1a574c53bacf2396a17f1007bfc091.jpg");
+  background-image: url("images/7be9e8c4cd1a574c53bacf2396a17f1007bfc091.jpg");
 }

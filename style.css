@@ -97,10 +97,10 @@ header p {
     text-align: center;
   }
   .first {
-    background-image: url("");
+    background-image: url("images/");
   }
   .second {
-    background-image: url("bca14fea5cc383f10eb575ae23034d12bd94613d.jpg");
+    background-image: url("images/bca14fea5cc383f10eb575ae23034d12bd94613d.jpg");
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
