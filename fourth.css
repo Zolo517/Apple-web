@@ -14,7 +14,7 @@
   height: 580px;
   display: flex;
   flex-direction: column;
-  align-items: end;
+  align-items: center;
 }
 .neg-2 {
   background-image: url("ipad.jpg");
@@ -57,11 +57,16 @@
 .hoyr-2 {
   background-image: url("airpods-pro.jpg");
   margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 58px;
 }
 .duruv {
   background-image: url("macbook-air.jpg");
   margin-top: 12px;
   margin-left: 12px;
+  padding: 48px;
 }
 .zurgaa {
   background-image: url("card.jpg");
