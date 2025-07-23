@@ -140,3 +140,9 @@
     height: 1494px;
   }
 }
+@media (min-width: 390px) and (max-width: 768px) {
+  .item {
+    width: 49.2%;
+    height: 500px;
+  }
+}

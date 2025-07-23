@@ -85,9 +85,8 @@ header p {
     text-align: center;
   }
 }
-@media (min-width: 390px) and (max-width: 768px) {
-}
-@media (min-width: 320px) and (max-width: 390px) {
+
+@media (max-width: 390px) {
   header {
     padding: 71px 31px 31px 31px;
   }
