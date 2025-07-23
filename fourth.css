@@ -1,16 +1,16 @@
 .fourth {
   width: 100%;
   height: 1764px;
-  padding: 12px 0px 0px 12px;
+  padding: 12px 12px 0px 12px;
   display: flex;
   flex-wrap: wrap;
-  /* gap: 12px; */
+  gap: 12px;
 }
 .item {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 49%;
+  width: 49.5%;
   height: 580px;
   display: flex;
   flex-direction: column;
@@ -45,18 +45,16 @@
 
 .gurav-2 {
   background-image: url("apple-watch.jpg");
-  margin-top: 12px;
 }
 .tav {
   background-image: url("trade-in.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 12px;
 }
 .hoyr-2 {
   background-image: url("airpods-pro.jpg");
-  margin-left: 12px;
+
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -64,14 +62,11 @@
 }
 .duruv {
   background-image: url("macbook-air.jpg");
-  margin-top: 12px;
-  margin-left: 12px;
+
   padding: 48px;
 }
 .zurgaa {
   background-image: url("card.jpg");
-  margin-top: 12px;
-  margin-left: 12px;
 }
 .applewatch {
   display: flex;
@@ -134,4 +129,14 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+}
+@media (max-width: 768px) {
+  .item {
+    width: 49%;
+    height: 490px;
+  }
+  .fourth {
+    width: 100%;
+    height: 1494px;
+  }
 }
