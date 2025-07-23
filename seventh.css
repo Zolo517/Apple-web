@@ -1,0 +1,54 @@
+.fitness1 {
+  background-image: url("fitness.jpg");
+}
+.footer {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 417px;
+  height: 236px;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding: 20px 15px;
+}
+.footer > p {
+  color: #fff;
+
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 128.571% */
+  letter-spacing: -0.224px;
+}
+.footer > svg {
+  margin-bottom: 3px;
+}
+.fitness2 {
+  background-image: url("plus.jpg");
+}
+.basketball {
+  background-image: url("nba.jpg");
+}
+.music1 {
+  background-color: #1b2632;
+  width: 417px;
+  height: 236px;
+}
+.music2 {
+  background-color: #ebb799;
+  width: 417px;
+  height: 236px;
+}
+div > img {
+  border-radius: 8px;
+}
+.seventh {
+  display: flex;
+  gap: 16px;
+  overflow-x: scroll;
+}
+.rnb {
+  margin-bottom: 89px;
+}

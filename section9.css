@@ -1,0 +1,28 @@
+button {
+  border: solid 1px black;
+  background-color: #fff;
+  border-radius: 999px;
+  width: 125px;
+  height: 40px;
+}
+.section9 {
+  background-color: #f5f5f7;
+  padding: 0px 0px 60px 140px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.section9 div {
+  display: flex;
+
+  gap: 12px;
+}
+.section9 p {
+  color: #1d1d1f;
+
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+}

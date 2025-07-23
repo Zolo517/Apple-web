@@ -1,0 +1,43 @@
+.fav {
+  background-image: url("6da69c7f2d4d299063c16c1d325db130f08ef7ba.jpg");
+}
+.gift2 {
+  color: #1d1d1f;
+
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  letter-spacing: 0.196px;
+}
+.section5 {
+  background-color: #f5f5f7;
+  padding: 0px 0px 60px 140px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.color6 {
+  padding: 24px 65.58px 20px 65.77px;
+  display: flex;
+  gap: 7px;
+}
+
+.color4 {
+  padding: 25px 95.5px 21px 88.5px;
+  display: flex;
+  gap: 7px;
+}
+.color3 {
+  padding: 25px 105px 21px 98px;
+  display: flex;
+  gap: 7px;
+}
+.mini {
+  margin-top: 21px;
+}
+.une1 {
+  display: flex;
+  justify-content: space-between;
+}

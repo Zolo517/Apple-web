@@ -1,0 +1,68 @@
+.apple-1 {
+  width: 480px;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 18px;
+  padding: 32px 30px;
+}
+.music-1 {
+  background-image: url("fe1e7ece87047c95faa8a68f17e8867914317976.jpg");
+}
+.tv {
+  background-image: url("2171b58f3ab6a95e407be2639740dad7138786d3.png");
+}
+.apps {
+  background-image: url("7e38eec3034a854374ceb67eb6c71f4e173cee8e.jpg");
+}
+.features {
+  background-image: url("4c93c049459dcec6247af385b50ac485e92e5a45.jpg");
+}
+.section7 {
+  background-color: #f5f5f7;
+  padding: 0px 0px 60px 140px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+.APPLE {
+  color: #6e6e73;
+
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.bold-text {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+}
+.sub {
+  margin-top: 20px;
+}
+.text-content {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 117.647% */
+}
+.charlie {
+  color: #f5f5f7;
+}
+.brown {
+  color: #fff;
+}
+.music-2 {
+  margin: 8px 0px 10px 0px;
+}
+.brown-1 {
+  margin-top: 7px;
+}

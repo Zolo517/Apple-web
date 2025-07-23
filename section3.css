@@ -1,0 +1,86 @@
+.apple {
+  color: #b64400;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.small {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+.jijig {
+  gap: 10px;
+}
+.iphone16-pro {
+  background-image: url("8cee8a34ee4ba9b658ae0be05611d11ea5d55e1b.jpg");
+  padding: 30px;
+}
+.series-10 {
+  background-image: url("c919767811d17384ffff099320c9c7133d51ca53.jpg");
+  padding: 45px 0px 0px 30px;
+}
+.ipad-mini {
+  background-image: url("ipad-mini.jpg");
+  padding: 30px;
+}
+.macbookpro {
+  background-image: url("8943d8c585c4f4bb4720641745b1cce65bdd8f0e.jpg");
+  padding: 30px;
+}
+.latest > div {
+  width: 480px;
+  height: 500px;
+  border-radius: 18px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.latest {
+  display: flex;
+  gap: 20px;
+}
+.section3 {
+  padding: 0px 0px 60px 140px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f7;
+}
+.items {
+  color: #1d1d1f;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 123.077% */
+  letter-spacing: 0.196px;
+  margin: 9px 0px 12px 0px;
+}
+.price {
+  color: #1d1d1f;
+
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.brown {
+  display: flex;
+}
+.triangle {
+  color: #b64400;
+  display: flex;
+  width: 6px;
+  height: 9px;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 10px;
+}

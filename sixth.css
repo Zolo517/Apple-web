@@ -1,0 +1,35 @@
+.bullet {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #0000006b;
+}
+.bullets {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+}
+.sixth {
+  padding: 12px;
+}
+body:has(#item1:target) .bullets .bullet:nth-child(1) {
+  background-color: black;
+}
+body:has(#item2:target) .bullets .bullet:nth-child(2) {
+  background-color: black;
+}
+body:has(#item3:target) .bullets .bullet:nth-child(3) {
+  background-color: black;
+}
+body:has(#item4:target) .bullets .bullet:nth-child(4) {
+  background-color: black;
+}
+body:has(#item5:target) .bullets .bullet:nth-child(5) {
+  background-color: black;
+}
+body:has(#item6:target) .bullets .bullet:nth-child(6) {
+  background-color: black;
+}
+body:has(#item7:target) .bullets .bullet :nth-child(7) {
+  background-color: black;
+}

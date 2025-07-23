@@ -1,0 +1,129 @@
+.fourth {
+  width: 100%;
+  height: 1764px;
+  padding: 12px 0px 0px 12px;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 12px; */
+}
+.item {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 49%;
+  height: 580px;
+}
+.neg-2 {
+  background-image: url("ipad.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ipad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.neg-2 > p {
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.gurav-2 {
+  background-image: url("apple-watch.jpg");
+  margin-top: 12px;
+}
+.tav {
+  background-image: url("trade-in.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 12px;
+}
+.hoyr-2 {
+  background-image: url("airpods-pro.jpg");
+  margin-left: 12px;
+}
+.duruv {
+  background-image: url("macbook-air.jpg");
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.zurgaa {
+  background-image: url("card.jpg");
+  margin-top: 12px;
+  margin-left: 12px;
+}
+.applewatch {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+.applewatch p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.air {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44px; /* 122.222% */
+}
+.airpod {
+  color: #f5f5f7;
+}
+.classic {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.black {
+  color: #f5f5f7;
+}
+.gurav {
+  width: 167px;
+  height: 40px;
+}
+.apple-tradein {
+  width: 322px;
+  height: 146px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pad {
+  padding: 58px;
+}
+.series {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
