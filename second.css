@@ -1,14 +1,3 @@
-.second {
-  background-image: url("images/second.jpg");
-  background-position: center;
-  width: 100%;
-  height: 692px;
-  display: flex;
-  flex-direction: column;
-  padding: 55;
-  align-items: center;
-  margin-top: 12px;
-}
 .primary-button {
   border: 0;
   width: 123px;
@@ -33,11 +22,7 @@
   font-weight: 400;
   border-radius: 40px;
 }
-.buttons-container {
-  margin-top: 20px;
-  display: flex;
-  gap: 16px;
-}
+
 .neg {
   background-color: #fff;
   border: #fff;
