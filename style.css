@@ -208,6 +208,12 @@ header p {
   .fly {
     background-image: url("./images/a0a4904b12a737796ecab3d5be6082e69c945227.jpg");
   }
+  .charlie {
+    background-image: url("images/tablet-sixth.jpg");
+  }
+  .bad {
+    background-image: url("images/");
+  }
   .iPhone {
     font-size: 42px;
   }
