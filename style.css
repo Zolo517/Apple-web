@@ -69,6 +69,13 @@ header p {
   .la-music3 {
     display: none;
   }
+  .fourth {
+    padding: 12px 12px 0px 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+  }
 
   .first {
     background-image: url("images/ec3175b4a85620366114b7dc1d62789aa36c0536\ \(1\).jpg");
@@ -110,6 +117,27 @@ header p {
     align-items: center;
     margin-top: 12px;
   }
+  .dis {
+    background-image: url("images/a71fa31c036fa4ebdb97754279e6264a8511c26a.jpg");
+    display: flex;
+  }
+  .fly {
+    background-image: url("images/0ef20c456c1f9e35f8cfc952ddd2340d8debbb86.jpg");
+  }
+  .shrink {
+    background-image: url("images/a96232d2cffc7341eddba9393942d27673a1bb78.jpg");
+  }
+  .movie {
+    min-width: 1250px;
+    height: 670px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    padding: 58px 70px;
+    overflow: hidden;
+    scroll-snap-align: center;
+  }
 }
 @media (min-width: 430px) and (max-width: 768px) {
   .first {
@@ -122,6 +150,13 @@ header p {
     padding-top: 58px;
     align-items: center;
     background-position: center;
+  }
+  .fourth {
+    padding: 12px 12px 0px 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
   }
   .buttons-container {
     margin-top: 16px;
@@ -167,17 +202,28 @@ header p {
   .rnb-music1 {
     display: none;
   }
-
-  .dis {
+  .shrink {
+    background-image: url("images/f8cc6053a339d895af1d1d416ffb726b4e16e56c.jpg");
+  }
+  .fly {
     background-image: url("./images/a0a4904b12a737796ecab3d5be6082e69c945227.jpg");
-    min-width: 689px;
-    height: 368px;
   }
   .iPhone {
     font-size: 42px;
   }
   .text {
     font-size: 22px;
+  }
+  .movie {
+    min-width: 689px;
+    height: 368px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    padding: 27px 30px;
+    overflow: hidden;
+    scroll-snap-align: center;
   }
 }
 @media (max-width: 430px) {
@@ -190,7 +236,12 @@ header p {
     text-align: center;
   }
   .fourth {
-    grid-template-columns: 1fr;
+    grid-template-columns: 100vw;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-row-gap: 12px;
+    margin-top: 12px;
   }
   .first {
     background-image: url("./images/4d617ff6192318499aff8aebb56aaf232c8f00d4.jpg");
@@ -204,9 +255,7 @@ header p {
     align-items: center;
     padding-bottom: 36px;
   }
-  .fourth {
-    padding: 0px;
-  }
+
   .text {
     font-size: 18px;
     font-weight: 400;
@@ -240,5 +289,16 @@ header p {
 
     align-items: center;
     margin-top: 12px;
+  }
+  .movie {
+    min-width: 274px;
+    height: 495px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    padding: 58px 70px;
+    overflow: hidden;
+    scroll-snap-align: center;
   }
 }
