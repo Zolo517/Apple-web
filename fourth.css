@@ -14,7 +14,7 @@
   flex-direction: column;
   align-items: center;
 }
-.neg-2 {
+.iPad-air {
   background-image: url("images/ipad.jpg");
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
 }
-.neg-2 > p {
+.iPad-air > p {
   background: linear-gradient(
     90deg,
     #0090f7 0%,
@@ -43,16 +43,16 @@
   justify-content: end;
 }
 
-.gurav-2 {
+.apple-watch {
   background-image: url("./images/apple-watch.jpg");
 }
-.tav {
+.trade-in {
   background-image: url("./images/trade-in.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.hoyr-2 {
+.airpods-pro2 {
   background-image: url("./images/airpods-pro.jpg");
 
   display: flex;
@@ -60,12 +60,12 @@
   justify-content: end;
   padding: 58px;
 }
-.duruv {
+.macbookair {
   background-image: url("images/macbook-air.jpg");
 
   padding: 48px;
 }
-.zurgaa {
+.card {
   background-image: url("./images/card.jpg");
 }
 .applewatch {
@@ -130,6 +130,12 @@
   line-height: normal;
   letter-spacing: 2px;
 }
+.small-business {
+  background-image: url("images/faea9510bf75f3061ee55679cd22eea7569fcf6a.png");
+}
+.apple-deals {
+  background-image: url("images/apple-deals.png");
+}
 @media (max-width: 768px) {
   .third {
     display: none;
@@ -145,10 +151,28 @@
     justify-content: space-between;
     padding: 16px;
   }
+  .apple-watch {
+    background-image: url("images/Figure.png");
+  }
+  .card {
+    display: none;
+  }
+  .airpods4 {
+    background-image: url("images/da862da9442f25fda2746d5c8c6f9ec5d93a3101.jpg");
+  }
+  .airpods-pro2 {
+    display: npne;
+  }
+  .tablet {
+    display: contents;
+  }
 }
 @media (min-width: 430px) and (max-width: 768px) {
-  /* .neg-2 {
+  .iPad-air {
     grid-column-start: 1;
     grid-column-end: 3;
-  } */
+  }
+  .airpods-pro2 {
+    display: none;
+  }
 }

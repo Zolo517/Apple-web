@@ -10,6 +10,11 @@
   font-weight: 400;
   border-radius: 40px;
 }
+.buttons-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+}
 .secondary-button {
   border: #0071e3 solid 1px;
   width: 68px;
