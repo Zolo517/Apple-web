@@ -134,7 +134,7 @@
 }
 @media (max-width: 768px) {
   .item {
-    width: 49%;
+    width: 49.3%;
     height: 490px;
   }
   .fourth {
@@ -147,11 +147,11 @@
     background-position: center;
   }
   .third {
-    background-image: url("./images/ipad.jpg");
-    background-image: url("images/ipad.jpg");
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: none;
+  }
+  .movie {
+    min-width: 689px;
+    height: 368px;
   }
 }
 @media (min-width: 390px) and (max-width: 768px) {
