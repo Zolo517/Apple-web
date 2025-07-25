@@ -261,7 +261,44 @@ header p {
     align-items: center;
     padding-bottom: 36px;
   }
-
+  .movie {
+    min-width: 274px;
+    height: 495px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: end;
+    padding: 27px 30px;
+    overflow: hidden;
+    scroll-snap-align: center;
+  }
+  .dis {
+    background-image: url("images/phoneversion-first.jpg");
+  }
+  .fly {
+    background-image: url("images/phoneversion-second.jpg");
+  }
+  .shrink {
+    background-image: url("images/phoneversion-third.jpg");
+  }
+  .charlie {
+    background-image: url("images/phoneversion-seventh.jpg");
+  }
+  .bad {
+    background-image: url("images/phoneversion-fourth.jpg");
+  }
+  .foot {
+    background-image: url("images/phoneversion-fifth.jpg");
+  }
+  .last {
+    background-image: url("images/phoneversion-sixth.jpg");
+  }
+  .movie button {
+    display: none;
+  }
+  .movie p {
+    display: none;
+  }
   .text {
     font-size: 18px;
     font-weight: 400;

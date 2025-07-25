@@ -125,18 +125,20 @@
 }
 .small-business {
   background-image: url("images/faea9510bf75f3061ee55679cd22eea7569fcf6a.png");
+  padding: 42px;
 }
 .apple-deals {
   background-image: url("images/apple-deals.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-bottom: 42px;
 }
 @media (max-width: 768px) {
   .third {
     display: none;
   }
-  .movie {
-    min-width: 689px;
-    height: 368px;
-  }
+
   nav > a {
     display: none;
   }
@@ -152,6 +154,8 @@
   }
   .airpods4 {
     background-image: url("images/da862da9442f25fda2746d5c8c6f9ec5d93a3101.jpg");
+    justify-content: end;
+    padding: 0px 74px 42px 75px;
   }
   .airpods-pro2 {
     display: none;
