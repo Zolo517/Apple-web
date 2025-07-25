@@ -135,7 +135,7 @@
   padding-bottom: 42px;
 }
 @media (max-width: 768px) {
-  .third {
+  .third :nth-child(1) {
     display: none;
   }
 

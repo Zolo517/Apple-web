@@ -138,6 +138,9 @@ header p {
     overflow: hidden;
     scroll-snap-align: center;
   }
+  .third :nth-last-child(1) {
+    display: none;
+  }
 }
 @media (min-width: 430px) and (max-width: 768px) {
   .first {
@@ -212,8 +215,15 @@ header p {
     background-image: url("images/tablet-sixth.jpg");
   }
   .bad {
-    background-image: url("images/");
+    background-image: url("images/tablet-fifth.jpg");
   }
+  .foot {
+    background-image: url("images/tablet-fourth.jpg");
+  }
+  .dis {
+    background-image: url("images/tablet-seventh.jpg");
+  }
+
   .iPhone {
     font-size: 42px;
   }
