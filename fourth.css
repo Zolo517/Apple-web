@@ -1,12 +1,3 @@
-.item {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 580px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .iPad-air {
   background-image: url("images/ipad.jpg");
   display: flex;
@@ -135,10 +126,6 @@
   padding-bottom: 42px;
 }
 @media (max-width: 768px) {
-  .third :nth-child(1) {
-    display: none;
-  }
-
   nav > a {
     display: none;
   }
@@ -163,16 +150,65 @@
   .tablet {
     display: contents;
   }
+  .iPad-air {
+    display: none;
+  }
   .descriptions {
+    display: none;
+  }
+  .bottom {
     display: none;
   }
 }
 @media (min-width: 430px) and (max-width: 768px) {
-  .iPad-air {
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
   .airpods-pro2 {
     display: none;
+  }
+  .tablet_version {
+    display: block;
+    text-align: center;
+  }
+  .iPad-air1 {
+    background-image: url("images/ipad.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0px;
+    margin-top: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iPad-air1 > p {
+    background: linear-gradient(
+      90deg,
+      #0090f7 0%,
+      #ba62fc 33.33%,
+      #f2416b 66.67%,
+      #f55600 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .ipad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ipad img {
+    margin-bottom: 8px;
+  }
+  .tablet-version {
+    height: 161px;
   }
 }

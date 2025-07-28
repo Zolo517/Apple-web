@@ -138,8 +138,28 @@ header p {
     overflow: hidden;
     scroll-snap-align: center;
   }
-  .third :nth-last-child(1) {
+
+  .bottom-2 {
     display: none;
+  }
+  .iPad-air1 {
+    display: none;
+  }
+  .bottom {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+    position: relative;
+    height: 236px;
+  }
+  .item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (min-width: 430px) and (max-width: 768px) {
@@ -241,6 +261,15 @@ header p {
     overflow: hidden;
     scroll-snap-align: center;
   }
+  .item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media (max-width: 430px) {
   header {
@@ -252,12 +281,22 @@ header p {
     text-align: center;
   }
   .fourth {
+    /* height: 500px; */
     grid-template-columns: 100vw;
     padding: 0px;
     display: grid;
     grid-template-columns: 100%;
     grid-row-gap: 12px;
     margin-top: 12px;
+  }
+  .item {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .first {
     background-image: url("./images/4d617ff6192318499aff8aebb56aaf232c8f00d4.jpg");
@@ -338,7 +377,7 @@ header p {
     height: 500px;
     display: flex;
     flex-direction: column;
-    padding: 30px 0px 350px 0px;
+    padding: 30px 0px 35px 0px;
 
     align-items: center;
     margin-top: 12px;
@@ -353,5 +392,52 @@ header p {
     padding: 58px 70px;
     overflow: hidden;
     scroll-snap-align: center;
+  }
+  .iPad-air1 {
+    background-image: url("images/ipad.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 0px;
+    margin-top: 12px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .iPad-air1 > p {
+    background: linear-gradient(
+      90deg,
+      #0090f7 0%,
+      #ba62fc 33.33%,
+      #f2416b 66.67%,
+      #f55600 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .ipad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ipad img {
+    margin-bottom: 8px;
+  }
+  .phone_version {
+    display: block;
+    text-align: center;
+  }
+  .tablet-version {
+    height: 134px;
   }
 }

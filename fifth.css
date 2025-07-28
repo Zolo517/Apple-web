@@ -7,6 +7,15 @@
   scroll-behavior: smooth;
   margin-top: 12px;
 }
+/* .container gedgiihn orond uuriihuun overflow:scroll hiij bgaga songono */
+.movies-container {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+.movies-container::-webkit-scrollbar {
+  display: none; /* Older Safari and Chromium */
+}
+
 .primary-1 {
   color: #fff;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
