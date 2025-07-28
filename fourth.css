@@ -163,6 +163,9 @@
   .tablet {
     display: contents;
   }
+  .descriptions {
+    display: none;
+  }
 }
 @media (min-width: 430px) and (max-width: 768px) {
   .iPad-air {
