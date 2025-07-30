@@ -439,5 +439,6 @@ header p {
   }
   .tablet-version {
     height: 134px;
+    min-width: 238px;
   }
 }

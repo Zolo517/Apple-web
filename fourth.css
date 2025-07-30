@@ -210,5 +210,6 @@
   }
   .tablet-version {
     height: 161px;
+    min-width: 286px;
   }
 }
