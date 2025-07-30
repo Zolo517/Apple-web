@@ -270,6 +270,12 @@ header p {
     flex-direction: column;
     align-items: center;
   }
+  .purple {
+    background-color: #6529cf;
+  }
+  .black {
+    background-color: #040303;
+  }
 }
 @media (max-width: 430px) {
   header {
@@ -438,7 +444,15 @@ header p {
     text-align: center;
   }
   .tablet-version {
+    height: 160px;
+    width: 100%;
+  }
+  
+  .poster {
     height: 134px;
     min-width: 238px;
+  }
+  .green {
+    background-image: url("images/0ed7a6f5a7a690a1b36a1197674d40ee09bc6983.jpg");
   }
 }
