@@ -29,20 +29,21 @@
 
 .apple-watch {
   background-image: url("./images/apple-watch.jpg");
+  padding-top: 58px;
 }
 .trade-in {
   background-image: url("./images/trade-in.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 58px;
 }
 .airpods-pro2 {
   background-image: url("./images/airpods-pro.jpg");
-
+  padding: 58px;
   display: flex;
   flex-direction: column;
   justify-content: end;
-  padding: 58px;
 }
 .macbookair {
   background-image: url("images/macbook-air.jpg");
@@ -51,6 +52,7 @@
 }
 .card {
   background-image: url("./images/card.jpg");
+  padding-top: 58px;
 }
 .applewatch {
   display: flex;
@@ -101,9 +103,7 @@
   flex-direction: column;
   align-items: center;
 }
-.pad {
-  padding: 58px;
-}
+
 .series {
   color: #000;
   text-align: center;
@@ -159,7 +159,12 @@
   .bottom {
     display: none;
   }
-
+  .purple {
+    background-color: #6529cf;
+  }
+  .black {
+    background-color: #040303;
+  }
 }
 @media (min-width: 430px) and (max-width: 768px) {
   .airpods-pro2 {
@@ -175,7 +180,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 36px 0px;
+    padding: 58px 62px;
     margin-top: 12px;
     background-repeat: no-repeat;
     background-position: center;
@@ -210,18 +215,31 @@
     margin-bottom: 8px;
   }
   .tablet-version {
-    height: 161px;
     min-width: 286px;
-    padding: 15px 15px 15px 77.5px;
     gap: 16.5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
   }
-    .bottom2 {
+  .green {
+    background-color: #2a402d;
+  }
+  .bottom-2 {
     display: flex;
     gap: 16px;
     overflow-x: scroll;
+    position: relative;
+  }
+  .poster {
+    height: 161px;
+    min-width: 286px;
+    padding: 10px 10px 10px 62px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 11px;
   }
   .purple img {
     display: none;
-
   }
 }

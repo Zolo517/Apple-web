@@ -7,6 +7,9 @@
     margin: auto;
   }
 }
+.tablet-version {
+  animation: auto-scroll 15s linear infinite;
+}
 .footer {
   animation: auto-scroll 15s linear infinite;
   background-position: center;
@@ -57,9 +60,7 @@
 div > img {
   border-radius: 8px;
 }
-.purple-poster {
-  background-color: #6529cf;
-}
+
 /* .container gedgiihn orond uuriihuun overflow:scroll hiij bgaga songono */
 .bottom {
   -ms-overflow-style: none; /* Internet Explorer 10+ */
@@ -68,7 +69,13 @@ div > img {
 .bottom::-webkit-scrollbar {
   display: none; /* Older Safari and Chromium */
 }
-
+.bottom-2 {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox, Safari 18.2+, Chromium 121+ */
+}
+.bottom-2::-webkit-scrollbar {
+  display: none; /* Older Safari and Chromium */
+}
 .rnb {
   margin-bottom: 89px;
 }

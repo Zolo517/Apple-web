@@ -270,11 +270,18 @@ header p {
     flex-direction: column;
     align-items: center;
   }
-  .purple {
-    background-color: #6529cf;
+
+  .tablet-version p {
+    color: #1d1d1f;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.224px;
   }
-  .black {
-    background-color: #040303;
+  .iPad-air1 {
+    padding: 58px 62px;
   }
 }
 @media (max-width: 430px) {
@@ -445,7 +452,7 @@ header p {
   }
   .tablet-version {
     height: 160px;
-    width: 100%;
+    min-width: 238px;
   }
 
   .poster {
@@ -463,9 +470,18 @@ header p {
     background-repeat: no-repeat;
     background-size: cover;
   }
-    .bottom2 {
+  .bottom-2 {
     display: flex;
-    gap: 6px;
+    gap: 16px;
     overflow-x: scroll;
+    position: relative;
+  }
+  .tablet-version p {
+    color: #1d1d1f;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px; /* 133.333% */
   }
 }
