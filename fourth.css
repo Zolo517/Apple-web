@@ -159,11 +159,7 @@
   .bottom {
     display: none;
   }
-  .bottom2 {
-    display: flex;
-    gap: 16px;
-    overflow-x: scroll;
-  }
+
 }
 @media (min-width: 430px) and (max-width: 768px) {
   .airpods-pro2 {
@@ -216,5 +212,16 @@
   .tablet-version {
     height: 161px;
     min-width: 286px;
+    padding: 15px 15px 15px 77.5px;
+    gap: 16.5px;
+  }
+    .bottom2 {
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll;
+  }
+  .purple img {
+    display: none;
+
   }
 }
